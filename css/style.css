@@ -7,17 +7,30 @@
  */
 
 @font-face {
-  font-family: 'BAERAN';
-  src: url('fonts/BAERANRegular.eot');
-  src: local('BAERAN'), local('BAERANRegular'),
-      url('fonts/BAERANRegular.eot?#iefix') format('embedded-opentype'),
-      url('fonts/BAERANRegular.woff2') format('woff2'),
-      url('fonts/BAERANRegular.woff') format('woff'),
-      url('fonts/BAERANRegular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  font-family: 'Coachella_back';
+  src: url('../fuentes/coachella_back.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Coachella_thin';
+  src: url('../fuentes/coachella_thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Coachella_medium';
+  src: url('../fuentes/coachella_medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Coachella_light';
+  src: url('../fuentes/coachella_light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Coachella_regular';
+  src: url('../fuentes/coachella_regular.ttf') format('truetype');
+}
+
 
 :root {
   --blue: #007bff;
@@ -46,8 +59,6 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "BAERAN", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -57,7 +68,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Coachella_thin', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -69,7 +80,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "BAERAN", sans-serif;
+  font-family: 'Coachella_thin', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -252,7 +263,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: "Coachella_medium";
   font-size: inherit;
   line-height: inherit;
 }
@@ -376,7 +387,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Coachella_light", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #680a08;
@@ -9699,4 +9710,8 @@ h6,
 .post p {
   text-align: center;
   font-size: 18px;
+}
+
+.secondary {
+  color: #f1bf8a;
 }
