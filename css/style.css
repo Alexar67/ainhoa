@@ -9715,3 +9715,89 @@ h6,
 .secondary {
   color: #f1bf8a;
 }
+
+.post2 {
+  margin-bottom: 20px;
+  break-inside: avoid;
+}
+
+.post2 img, .post2 video {
+  width: 70%;
+  max-width: 70%;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px; /* Add rounded corners */
+  border: 1px solid #ccc; /* Optional border */
+  background-color: #fff; /* Optional background color */
+}
+
+.post2 p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.post3 {
+  margin-top: 40px;
+  break-inside: avoid;
+}
+
+.post3 video {
+  width: 120%;
+  max-width: 120%;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px; /* Add rounded corners */
+  border: 1px solid #ccc; /* Optional border */
+  background-color: #fff; /* Optional background color */
+}
+
+.margen{
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.margen2{
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.video_reina{
+  text-align: center;
+}
+
+.parrafo {
+  margin: 40px 250px 10px 250px;
+  font-weight: bold;
+}
+
+.video_reina video {
+  width: 60%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px; /* Add rounded corners */
+  border: 1px solid #ccc; /* Optional border */
+  background-color: #fff; /* Optional background color */
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #a87b56;
+}
+
+.quote-container {
+  border-left: 5px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* carrocel testimonios */

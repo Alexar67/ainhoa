@@ -68,3 +68,14 @@
     
 })(jQuery);
 
+let currentSlide = 0;
+
+function moveSlide(n) {
+    const slides = document.getElementsByClassName('slide');
+    const totalSlides = slides.length;
+
+    currentSlide = (currentSlide + n + totalSlides) % totalSlides;
+    
+    const carouselSlides = document.querySelector('.carousel-slides');
+    carouselSlides.style.transform = `translateX(${-currentSlide * 100}%)`;
+}
