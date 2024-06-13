@@ -9721,9 +9721,20 @@ h6,
   break-inside: avoid;
 }
 
-.post2 img, .post2 video {
+.post2 video {
   width: 70%;
   max-width: 70%;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px; /* Add rounded corners */
+  border: 1px solid #ccc; /* Optional border */
+  background-color: #fff; /* Optional background color */
+}
+
+.post2 img{
+  width: 100%;
+  max-width: 100%;
   display: block;
   margin: 0 auto 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
@@ -9763,6 +9774,26 @@ h6,
   padding-top: 20px;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.margen3{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.imagen1 img{
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px; /* Add rounded corners */
+  border: 1px solid #ccc; /* Optional border */
+  background-color: #fff; /* Optional background color */
+}
+
+
+.imagen1 {
+  width: 150%;
 }
 
 .video_reina{
